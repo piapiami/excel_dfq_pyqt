@@ -1,0 +1,20 @@
+{
+    "OutputPath": "C:/Users/23682/Desktop/excel/DFQ/data",
+    "SystemSettings": [
+        {
+            "K1001": "Part1",
+            "K1002": "Gear_shaft",
+            "K1086": "OP10",
+            "K1091": "ZF_CNC",
+            "K1004": "5"
+        },
+        {
+            "K1001": "P507AC-100",
+            "K1002": "Carrier01 Tuning01",
+            "K1086": "OP100",
+            "K1091": "ZF-CNC",
+            "K1004": "4"
+        }
+    ],
+    "LastExcelImportPath": "C:/Users/23682/Desktop/excel/DFQ/CSV_DATA/P507AC-100_Carrier01 Turning01/换刀首件/2025/04/10_晚班"
+}

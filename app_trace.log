@@ -1,0 +1,72 @@
+2025-05-14 19:14:51,057 - INFO - root - setup_logging:107 - 日志系统已启动。
+2025-05-14 19:14:51,057 - INFO - root - main:118 - 应用程序启动...
+2025-05-14 19:14:51,080 - INFO - app.main_window - __init__:92 - MainWindow 初始化开始...
+2025-05-14 19:14:51,446 - DEBUG - app.main_window - __init__:121 - 树编辑触发器和 itemChanged/itemClicked 信号已连接。
+2025-05-14 19:14:51,446 - DEBUG - app.main_window - setup_parameter_search_ui:133 - setup_parameter_search_ui 调用
+2025-05-14 19:14:51,446 - DEBUG - app.main_window - setup_parameter_reorder_buttons:188 - setup_parameter_reorder_buttons 调用
+2025-05-14 19:14:51,447 - DEBUG - app.main_window - load_initial_config:263 - load_initial_config 调用。
+2025-05-14 19:14:51,447 - DEBUG - app.main_window - load_initial_config:271 - load_initial_config: 默认设置 current_header_data 为第一个预设: Part1
+2025-05-14 19:14:51,447 - DEBUG - app.main_window - refresh_header_combobox:335 - refresh_header_combobox 调用, settings_list is None: True
+2025-05-14 19:14:51,448 - DEBUG - app.main_window - refresh_header_combobox:366 - refresh_header_combobox: 成功恢复之前的抬头选择: Part1
+2025-05-14 19:14:51,448 - DEBUG - app.main_window - refresh_header_combobox:385 - refresh_header_combobox 完成。当前抬头K1001: Part1
+2025-05-14 19:14:51,448 - DEBUG - app.main_window - connect_signals:279 - connect_signals 调用。
+2025-05-14 19:14:51,448 - INFO - app.main_window - connect_signals:291 - UI信号已连接。
+2025-05-14 19:14:51,448 - DEBUG - app.main_window - update_status:330 - update_status: '程序已启动，就绪。', is_error: False
+2025-05-14 19:14:51,448 - INFO - app.main_window - __init__:129 - MainWindow 初始化完成。
+2025-05-14 19:14:51,448 - INFO - root - main:122 - 主窗口已创建。
+2025-05-14 19:14:51,510 - INFO - root - main:124 - 主窗口已显示。
+2025-05-14 19:14:52,889 - INFO - app.main_window - add_excel_files:409 - add_excel_files: 方法入口。准备打开文件对话框...
+2025-05-14 19:14:55,113 - DEBUG - app.main_window - add_excel_files:416 - QFileDialog.getOpenFileNames 返回的原始 file_paths: ['C:/Users/23682/Desktop/excel/DFQ/CSV_DATA/P507AC-100_Carrier01 Turning01/换刀首件/2025/04/10_晚班/P507AC-100$Carrier01 Turning01$1039$5001$2005$202$4003$3004$T4,T11$6002$_2.xls']
+2025-05-14 19:14:55,113 - INFO - app.main_window - add_excel_files:423 - 用户选择了 1 个文件: ['C:/Users/23682/Desktop/excel/DFQ/CSV_DATA/P507AC-100_Carrier01 Turning01/换刀首件/2025/04/10_晚班/P507AC-100$Carrier01 Turning01$1039$5001$2005$202$4003$3004$T4,T11$6002$_2.xls']
+2025-05-14 19:14:55,113 - DEBUG - app.main_window - add_excel_files:428 - 下次导入路径将从 'C:/Users/23682/Desktop/excel/DFQ/CSV_DATA/P507AC-100_Carrier01 Turning01/换刀首件/2025/04/10_晚班' 开始 (当前会话)。
+2025-05-14 19:14:55,114 - DEBUG - app.main_window - update_status:330 - update_status: '已添加 1 个 Excel 文件。总计: 1。', is_error: False
+2025-05-14 19:14:55,114 - DEBUG - app.main_window - clear_preview_and_data:490 - clear_preview_and_data 调用, clear_header=False
+2025-05-14 19:14:55,114 - INFO - app.main_window - clear_preview_and_data:497 - 预览树和当前参数数据已清除 (抬头数据保留)。
+2025-05-14 19:14:55,114 - DEBUG - app.main_window - update_status:330 - update_status: '预览数据已清除。', is_error: False
+2025-05-14 19:14:57,815 - INFO - app.main_window - preview_dfq:975 - preview_dfq: 开始预览操作。
+2025-05-14 19:14:57,816 - DEBUG - app.main_window - _validate_inputs:533 - _validate_inputs 调用, for_generation: False
+2025-05-14 19:14:57,816 - INFO - app.main_window - _ensure_data_loaded_for_action:556 - _ensure_data_loaded_for_action 调用。
+2025-05-14 19:14:57,816 - DEBUG - app.main_window - _ensure_data_loaded_for_action:572 - EnsureData: 当前抬头 K1001: Part1
+2025-05-14 19:14:57,816 - INFO - core.excel_processor - read_excel_files:13 - read_excel_files: 开始处理 1 个Excel文件。
+2025-05-14 19:14:57,816 - DEBUG - core.excel_processor - read_excel_files:18 -   正在处理文件 1/1: C:/Users/23682/Desktop/excel/DFQ/CSV_DATA/P507AC-100_Carrier01 Turning01/换刀首件/2025/04/10_晚班/P507AC-100$Carrier01 Turning01$1039$5001$2005$202$4003$3004$T4,T11$6002$_2.xls
+2025-05-14 19:14:57,827 - DEBUG - app.main_window - update_status:330 - update_status: '已加载 3 个参数。', is_error: False
+2025-05-14 19:14:57,827 - INFO - app.main_window - _ensure_data_loaded_for_action:590 - _ensure_data_loaded_for_action 完成。参数数量: 3
+2025-05-14 19:14:57,827 - DEBUG - app.main_window - preview_dfq:986 - 有数据，开始填充预览树。
+2025-05-14 19:14:57,827 - INFO - app.main_window - populate_preview_tree:598 - populate_preview_tree: 开始填充预览树...
+2025-05-14 19:14:57,827 - DEBUG - app.main_window - populate_preview_tree:607 - populate_preview_tree: 树信号已阻塞。
+2025-05-14 19:14:57,836 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2121_val for param 0, tol='0.15', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,836 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2120_val for param 0, tol='0', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,845 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2121_val for param 1, tol='0.15', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,846 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2120_val for param 1, tol='0', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,853 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2121_val for param 2, tol='999', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,853 - DEBUG - app.main_window - populate_preview_tree:744 -       populate_preview_tree: NL K2120_val for param 2, tol='-999', enabled=True, checked=True, model_NL_val='1'
+2025-05-14 19:14:57,856 - DEBUG - app.main_window - update_status:330 - update_status: 'DFQ 结构预览已填充/更新。', is_error: False
+2025-05-14 19:14:57,856 - DEBUG - app.main_window - populate_preview_tree:756 - populate_preview_tree: 树信号已恢复。
+2025-05-14 19:14:57,856 - INFO - app.main_window - populate_preview_tree:757 - populate_preview_tree: 预览树填充/更新完成。
+2025-05-14 19:14:59,517 - INFO - app.main_window - handle_natural_limit_checkbox_changed_via_sender:791 - handle_natural_limit_checkbox_changed: 参数索引 0, NL键 K2120_val, 新UI状态 0
+2025-05-14 19:14:59,518 - DEBUG - app.main_window - update_status:330 - update_status: '参数 1 的 K2120_val 更新为 '1'', is_error: False
+2025-05-14 19:14:59,518 - DEBUG - app.main_window - handle_natural_limit_checkbox_changed_via_sender:821 -   参数 0 的 K2120_val 更新后值为 '1', 复选框UI状态: checked=False, enabled=True
+2025-05-14 19:15:01,641 - DEBUG - app.main_window - handle_parameter_combobox_changed_via_sender:764 - handle_parameter_combobox_changed_via_sender: param_idx=0, k_key=K2009_val, new_combo_idx=5
+2025-05-14 19:15:01,642 - INFO - app.main_window - handle_parameter_combobox_changed_via_sender:778 - 参数 1 的 K2009 更新为 '104' (线轮廓度)
+2025-05-14 19:15:01,642 - DEBUG - app.main_window - update_status:330 - update_status: '参数 1 的 K2009 更新为 '104' (线轮廓度)', is_error: False
+2025-05-14 19:15:04,124 - INFO - app.main_window - generate_dfq:1002 - generate_dfq: 开始生成DFQ文件操作。
+2025-05-14 19:15:04,124 - DEBUG - app.main_window - _validate_inputs:533 - _validate_inputs 调用, for_generation: True
+2025-05-14 19:15:04,124 - INFO - app.main_window - _ensure_data_loaded_for_action:556 - _ensure_data_loaded_for_action 调用。
+2025-05-14 19:15:04,124 - DEBUG - app.main_window - _ensure_data_loaded_for_action:572 - EnsureData: 当前抬头 K1001: Part1
+2025-05-14 19:15:04,124 - INFO - app.main_window - _ensure_data_loaded_for_action:590 - _ensure_data_loaded_for_action 完成。参数数量: 3
+2025-05-14 19:15:04,124 - INFO - core.dfq_writer - generate_dfq_content:15 - generate_dfq_content: 开始生成DFQ内容，参数数量: 3
+2025-05-14 19:15:04,124 - DEBUG - core.dfq_writer - generate_dfq_content:16 -   抬头信息: {'K1001': 'Part1', 'K1002': 'Gear_shaft', 'K1086': 'OP10', 'K1091': 'ZF_CNC', 'K1004': '5'}
+2025-05-14 19:15:04,124 - DEBUG - core.dfq_writer - generate_dfq_content:31 -   正在写入参数 1 (来自原始列表的数据): 1-平行度P51.65-1
+2025-05-14 19:15:04,124 - DEBUG - core.dfq_writer - generate_dfq_content:31 -   正在写入参数 2 (来自原始列表的数据): 1-平行度P31.85-1
+2025-05-14 19:15:04,124 - DEBUG - core.dfq_writer - generate_dfq_content:31 -   正在写入参数 3 (来自原始列表的数据): Z-值_点5(1)
+2025-05-14 19:15:04,124 - INFO - core.dfq_writer - generate_dfq_content:42 - DFQ内容生成完毕。
+2025-05-14 19:15:04,124 - INFO - core.dfq_writer - write_dfq_file:47 - write_dfq_file: 准备写入DFQ文件到路径: C:/Users/23682/Desktop/excel/DFQ/data
+2025-05-14 19:15:04,124 - DEBUG - core.dfq_writer - write_dfq_file:67 - 目标DFQ文件名: C:/Users/23682/Desktop/excel/DFQ/data\Part1_Gear_shaft_OP10_ZF_CNC_20250514191504.dfq
+2025-05-14 19:15:04,125 - INFO - core.dfq_writer - write_dfq_file:73 - DFQ文件成功写入到: C:/Users/23682/Desktop/excel/DFQ/data\Part1_Gear_shaft_OP10_ZF_CNC_20250514191504.dfq
+2025-05-14 19:15:05,335 - DEBUG - app.main_window - update_status:330 - update_status: 'DFQ文件已生成: Part1_Gear_shaft_OP10_ZF_CNC_20250514191504.dfq', is_error: False
+2025-05-14 19:15:21,644 - INFO - app.main_window - open_settings_dialog:515 - open_settings_dialog 调用。
+2025-05-14 19:15:23,868 - INFO - app.main_window - open_settings_dialog:530 - 设置对话框被拒绝 (取消)。
+2025-05-14 19:15:24,756 - INFO - app.main_window - closeEvent:1036 - closeEvent: 应用程序正在关闭...
+2025-05-14 19:15:24,763 - INFO - app.main_window - closeEvent:1042 - 应用程序关闭前已保存部分配置。
+2025-05-14 19:15:24,763 - INFO - app.main_window - closeEvent:1046 - 应用程序已接受关闭事件。
+2025-05-14 19:15:24,775 - INFO - root - main:126 - 应用程序已退出。
